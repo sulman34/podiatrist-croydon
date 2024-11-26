@@ -1,0 +1,59 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        
+  .image-container {
+    max-width: 400px; /* Limits the image container width */
+    margin: 0 auto; /* Centers the image on the page */
+    overflow: hidden; /* Ensures the image does not overflow the container */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  }
+
+  .responsive-image {
+    width: 100%; /* Makes the image fit the container width */
+    height: 390px; /* Ensures the height is proportional to the width */
+    object-fit: cover; /* Keeps the image fully covered without distortion */
+    display: block; /* Removes extra spacing below the image */
+  }
+        header {
+            background-color: #74829d;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .content h2 {
+            color: #74829d;
+        }
+        footer {
+            background-color: #74829d;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
